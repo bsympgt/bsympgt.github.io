@@ -1,23 +1,39 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - 我的全新 Hugo 网站</title>
-        <link>http://example.org/posts/</link>
+        <link>https://bsympgt.github.io/posts/</link>
         <description>All Posts | 我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 14 Dec 2022 17:19:43 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 14 Dec 2022 17:41:46 &#43;0800</lastBuildDate><atom:link href="https://bsympgt.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Third_post</title>
+    <link>https://bsympgt.github.io/posts/third_post/</link>
+    <pubDate>Wed, 14 Dec 2022 17:41:46 &#43;0800</pubDate>
+    <author>xxxx</author>
+    <guid>https://bsympgt.github.io/posts/third_post/</guid>
+    <description><![CDATA[17:59]]></description>
+</item>
+<item>
     <title>Linux安装git提交代码_post</title>
-    <link>http://example.org/posts/linux%E5%AE%89%E8%A3%85git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81_post/</link>
+    <link>https://bsympgt.github.io/posts/linux%E5%AE%89%E8%A3%85git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81_post/</link>
     <pubDate>Wed, 14 Dec 2022 17:19:43 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>http://example.org/posts/linux%E5%AE%89%E8%A3%85git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81_post/</guid>
-    <description><![CDATA[]]></description>
+    <guid>https://bsympgt.github.io/posts/linux%E5%AE%89%E8%A3%85git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81_post/</guid>
+    <description><![CDATA[安装git设置git密钥检测git是否能够连接上github命令实现上传]]></description>
 </item>
 <item>
     <title>Second_post</title>
-    <link>http://example.org/posts/%E9%85%8D%E7%BD%AEhugo%E7%8E%AF%E5%A2%83/</link>
+    <link>https://bsympgt.github.io/posts/%E9%85%8D%E7%BD%AEhugo%E7%8E%AF%E5%A2%83/</link>
     <pubDate>Wed, 14 Dec 2022 17:18:33 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>http://example.org/posts/%E9%85%8D%E7%BD%AEhugo%E7%8E%AF%E5%A2%83/</guid>
-    <description><![CDATA[]]></description>
+    <guid>https://bsympgt.github.io/posts/%E9%85%8D%E7%BD%AEhugo%E7%8E%AF%E5%A2%83/</guid>
+    <description><![CDATA[1.下载hugo 2.下载主题 3.创建新的文章 4.将文章push到github中 5.使用markdown编写内容]]></description>
+</item>
+<item>
+    <title>First_post</title>
+    <link>https://bsympgt.github.io/posts/socket%E9%80%9A%E4%BF%A1/</link>
+    <pubDate>Wed, 14 Dec 2022 16:47:42 &#43;0800</pubDate>
+    <author>xxxx</author>
+    <guid>https://bsympgt.github.io/posts/socket%E9%80%9A%E4%BF%A1/</guid>
+    <description><![CDATA[1.安装docker 2.将用户添加到docker组中 3.编写Sockerervice.java和Socketlient.java的代码 4.分]]></description>
 </item>
 </channel>
 </rss>
