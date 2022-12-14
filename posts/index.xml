@@ -17,7 +17,7 @@
     <pubDate>Wed, 14 Dec 2022 17:19:43 &#43;0800</pubDate>
     <author>xxxx</author>
     <guid>https://bsympgt.github.io/posts/linux%E5%AE%89%E8%A3%85git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81_post/</guid>
-    <description><![CDATA[安装git设置git密钥检测git是否能够连接上github命令实现上传]]></description>
+    <description><![CDATA[安装gitgit版本设置user.name和user.email设置密钥创建new ssh在linux查找密钥git成功添加密钥测试ssh是否]]></description>
 </item>
 <item>
     <title>Second_post</title>
