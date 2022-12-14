@@ -3,15 +3,15 @@
         <title>我的全新 Hugo 网站</title>
         <link>https://bsympgt.github.io/</link>
         <description>This is my cool site</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 14 Dec 2022 17:41:46 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 14 Dec 2022 23:35:11 &#43;0800</lastBuildDate>
             <atom:link href="https://bsympgt.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Third_post</title>
-    <link>https://bsympgt.github.io/posts/third_post/</link>
-    <pubDate>Wed, 14 Dec 2022 17:41:46 &#43;0800</pubDate>
+    <title>在ubuntu下使用docker实现socket通信</title>
+    <link>https://bsympgt.github.io/posts/%E5%9C%A8ubuntu%E4%B8%8B%E4%BD%BF%E7%94%A8docker%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1/</link>
+    <pubDate>Wed, 14 Dec 2022 23:35:11 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://bsympgt.github.io/posts/third_post/</guid>
-    <description><![CDATA[17:59]]></description>
+    <guid>https://bsympgt.github.io/posts/%E5%9C%A8ubuntu%E4%B8%8B%E4%BD%BF%E7%94%A8docker%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1/</guid>
+    <description><![CDATA[Docker安装update更新install安装docker安装1docker安装2update更新docker设置将用户添加到docke]]></description>
 </item>
 <item>
     <title>Linux安装git提交代码_post</title>
@@ -22,20 +22,28 @@
     <description><![CDATA[安装gitgit版本设置user.name和user.email设置密钥创建new ssh在linux查找密钥git成功添加密钥测试ssh是否]]></description>
 </item>
 <item>
-    <title>Second_post</title>
+    <title>配置hugo相关环境</title>
     <link>https://bsympgt.github.io/posts/%E9%85%8D%E7%BD%AEhugo%E7%8E%AF%E5%A2%83/</link>
     <pubDate>Wed, 14 Dec 2022 17:18:33 &#43;0800</pubDate>
     <author>xxxx</author>
     <guid>https://bsympgt.github.io/posts/%E9%85%8D%E7%BD%AEhugo%E7%8E%AF%E5%A2%83/</guid>
-    <description><![CDATA[1.下载hugo 2.下载主题 3.创建新的文章 4.将文章push到github中 5.使用markdown编写内容]]></description>
+    <description><![CDATA[下载主题新建一个文章文本测试是否连接成功在网页上运行将本地文件push到github里面在公网上运行bsympgt.github.io运行b]]></description>
 </item>
 <item>
-    <title>First_post</title>
-    <link>https://bsympgt.github.io/posts/socket%E9%80%9A%E4%BF%A1/</link>
+    <title>使用linux实现socket通信</title>
+    <link>https://bsympgt.github.io/posts/third_post/</link>
     <pubDate>Wed, 14 Dec 2022 16:47:42 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://bsympgt.github.io/posts/socket%E9%80%9A%E4%BF%A1/</guid>
-    <description><![CDATA[1.安装docker 2.将用户添加到docker组中 3.编写Sockerervice.java和Socketlient.java的代码 4.分]]></description>
+    <guid>https://bsympgt.github.io/posts/third_post/</guid>
+    <description><![CDATA[Docker安装update更新install安装docker安装1docker安装2update更新docker设置将用户添加到docke]]></description>
+</item>
+<item>
+    <title>使用linux实现socket通信</title>
+    <link>https://bsympgt.github.io/posts/%E4%BD%BF%E7%94%A8linux%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1/</link>
+    <pubDate>Wed, 14 Dec 2022 16:47:42 &#43;0800</pubDate>
+    <author>xxxx</author>
+    <guid>https://bsympgt.github.io/posts/%E4%BD%BF%E7%94%A8linux%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1/</guid>
+    <description><![CDATA[Docker安装update更新install安装docker安装1docker安装2update更新docker设置将用户添加到docke]]></description>
 </item>
 </channel>
 </rss>
