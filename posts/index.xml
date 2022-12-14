@@ -1,15 +1,23 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - 我的全新 Hugo 网站</title>
-        <link>https://bsympgt.github.io/posts/</link>
+        <link>http://example.org/posts/</link>
         <description>All Posts | 我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 14 Dec 2022 16:47:42 &#43;0800</lastBuildDate><atom:link href="https://bsympgt.github.io/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>First_post</title>
-    <link>https://bsympgt.github.io/posts/first_post/</link>
-    <pubDate>Wed, 14 Dec 2022 16:47:42 &#43;0800</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 14 Dec 2022 17:19:43 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Linux安装git提交代码_post</title>
+    <link>http://example.org/posts/linux%E5%AE%89%E8%A3%85git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81_post/</link>
+    <pubDate>Wed, 14 Dec 2022 17:19:43 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://bsympgt.github.io/posts/first_post/</guid>
-    <description><![CDATA[##socket]]></description>
+    <guid>http://example.org/posts/linux%E5%AE%89%E8%A3%85git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81_post/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>Second_post</title>
+    <link>http://example.org/posts/%E9%85%8D%E7%BD%AEhugo%E7%8E%AF%E5%A2%83/</link>
+    <pubDate>Wed, 14 Dec 2022 17:18:33 &#43;0800</pubDate>
+    <author>xxxx</author>
+    <guid>http://example.org/posts/%E9%85%8D%E7%BD%AEhugo%E7%8E%AF%E5%A2%83/</guid>
+    <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>
