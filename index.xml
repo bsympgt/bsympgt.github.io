@@ -6,12 +6,12 @@
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 14 Dec 2022 23:35:11 &#43;0800</lastBuildDate>
             <atom:link href="https://bsympgt.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>linux 常用命令大全</title>
+    <title>linux 学习笔记</title>
     <link>https://bsympgt.github.io/posts/basic-markdown-syntax/</link>
     <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
     <author>杨俊浩</author>
     <guid>https://bsympgt.github.io/posts/basic-markdown-syntax/</guid>
-    <description><![CDATA[linux 常用命令大全]]></description>
+    <description><![CDATA[linux 学习笔记]]></description>
 </item>
 <item>
     <title>在ubuntu下使用docker实现socket通信</title>
@@ -36,14 +36,6 @@
     <author>杨俊浩</author>
     <guid>https://bsympgt.github.io/posts/%E9%85%8D%E7%BD%AEhugo%E7%9B%B8%E5%85%B3%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8A%E5%9C%A8%E5%85%AC%E7%BD%91%E8%AE%BF%E9%97%AE%E4%BB%A3%E7%A0%81/</guid>
     <description><![CDATA[下载主题 git clone +地址 新建一个文章文本 hugo new site mysite cd mysite hugo new posts/first_post.md 测试是否连接成功 hugo serve - -buildDrafts 在网页上运行将本地文件push到github里面 echo &ldquo;# Linux&rdquo; &raquo; README.md git init git]]></description>
-</item>
-<item>
-    <title>linux的学习笔记</title>
-    <link>https://bsympgt.github.io/posts/linux%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
-    <pubDate>Wed, 14 Dec 2022 16:47:42 &#43;0800</pubDate>
-    <author>杨俊浩</author>
-    <guid>https://bsympgt.github.io/posts/linux%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-    <description><![CDATA[]]></description>
 </item>
 <item>
     <title>安装Nginx使用hugo生成静态网站以及marketdown语法的使用</title>
