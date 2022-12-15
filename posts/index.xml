@@ -4,10 +4,18 @@
         <link>https://bsympgt.github.io/posts/</link>
         <description>All Posts | 我的全新 Hugo 网站</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 14 Dec 2022 23:35:11 &#43;0800</lastBuildDate><atom:link href="https://bsympgt.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>linux 常用命令大全</title>
+    <link>https://bsympgt.github.io/posts/basic-markdown-syntax/</link>
+    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
+    <author>杨俊浩</author>
+    <guid>https://bsympgt.github.io/posts/basic-markdown-syntax/</guid>
+    <description><![CDATA[linux 常用命令大全]]></description>
+</item>
+<item>
     <title>在ubuntu下使用docker实现socket通信</title>
     <link>https://bsympgt.github.io/posts/%E5%9C%A8ubuntu%E4%B8%8B%E4%BD%BF%E7%94%A8docker%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1/</link>
     <pubDate>Wed, 14 Dec 2022 23:35:11 &#43;0800</pubDate>
-    <author>xxxx</author>
+    <author>杨俊浩</author>
     <guid>https://bsympgt.github.io/posts/%E5%9C%A8ubuntu%E4%B8%8B%E4%BD%BF%E7%94%A8docker%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1/</guid>
     <description><![CDATA[Docker安装代码 卸载旧版的docker sudo apt-get remove docker docker-engine docker.io containerd runc 更新系统里的所有的能更新的软件 sudo apt-get update 安装docker有关的工具 sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release up]]></description>
 </item>
@@ -15,7 +23,7 @@
     <title>Linux安装git提交代码_post</title>
     <link>https://bsympgt.github.io/posts/linux%E5%AE%89%E8%A3%85git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81_post/</link>
     <pubDate>Wed, 14 Dec 2022 17:19:43 &#43;0800</pubDate>
-    <author>xxxx</author>
+    <author>杨俊浩</author>
     <guid>https://bsympgt.github.io/posts/linux%E5%AE%89%E8%A3%85git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81_post/</guid>
     <description><![CDATA[#安装git sudo yum install git git版本查看 git - - version 设置user.name和user.email并查看git - -list实验代码 git config &ndash;global user.name &ldquo;yjh&rdquo; git config &ndash;global user.email &ldquo;yangjunhao@qq.com&rdquo; 查]]></description>
 </item>
@@ -23,7 +31,7 @@
     <title>配置hugo相关环境以及在公网访问代码</title>
     <link>https://bsympgt.github.io/posts/%E9%85%8D%E7%BD%AEhugo%E7%9B%B8%E5%85%B3%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8A%E5%9C%A8%E5%85%AC%E7%BD%91%E8%AE%BF%E9%97%AE%E4%BB%A3%E7%A0%81/</link>
     <pubDate>Wed, 14 Dec 2022 17:18:33 &#43;0800</pubDate>
-    <author>xxxx</author>
+    <author>杨俊浩</author>
     <guid>https://bsympgt.github.io/posts/%E9%85%8D%E7%BD%AEhugo%E7%9B%B8%E5%85%B3%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8A%E5%9C%A8%E5%85%AC%E7%BD%91%E8%AE%BF%E9%97%AE%E4%BB%A3%E7%A0%81/</guid>
     <description><![CDATA[下载主题 git clone +地址 新建一个文章文本 hugo new site mysite cd mysite hugo new posts/first_post.md 测试是否连接成功 hugo serve - -buildDrafts 在网页上运行将本地文件push到github里面 echo &ldquo;# Linux&rdquo; &raquo; README.md git init git]]></description>
 </item>
@@ -31,17 +39,17 @@
     <title>linux的学习笔记</title>
     <link>https://bsympgt.github.io/posts/linux%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Wed, 14 Dec 2022 16:47:42 &#43;0800</pubDate>
-    <author>xxxx</author>
+    <author>杨俊浩</author>
     <guid>https://bsympgt.github.io/posts/linux%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
-    <description><![CDATA[调整文字的大小和样式]]></description>
+    <description><![CDATA[]]></description>
 </item>
 <item>
-    <title>使用hugo生成静态网站以及marketdown语法的使用</title>
-    <link>https://bsympgt.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E4%BB%A5%E5%8F%8Amarketdown%E8%AF%AD%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
+    <title>安装Nginx使用hugo生成静态网站以及marketdown语法的使用</title>
+    <link>https://bsympgt.github.io/posts/%E5%AE%89%E8%A3%85nginx%E4%BD%BF%E7%94%A8hugo%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E4%BB%A5%E5%8F%8Amarketdown%E8%AF%AD%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
     <pubDate>Wed, 14 Dec 2022 16:47:42 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://bsympgt.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E4%BB%A5%E5%8F%8Amarketdown%E8%AF%AD%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
-    <description><![CDATA[新建一个文本在content/post里面编写文本内容返回到mysite目录下执行hugo serve hugo serve 在本地http://localhost:13]]></description>
+    <guid>https://bsympgt.github.io/posts/%E5%AE%89%E8%A3%85nginx%E4%BD%BF%E7%94%A8hugo%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E4%BB%A5%E5%8F%8Amarketdown%E8%AF%AD%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+    <description><![CDATA[author: &ldquo;杨俊浩&rdquo; 安装Nginx 代码 下载依赖包 apt-get install gcc apt-get install libpcre3 libpcre3-dev apt-get install zlib1g zlib1g-dev sudo apt-get install openssl sudo apt-get install libssl-dev 安装Nginx wget http://nginx.org/download/nginx-1.13.7.tar.gz tar -xvf nginx-1.13.7.tar.gz 运行Nginx]]></description>
 </item>
 </channel>
 </rss>
