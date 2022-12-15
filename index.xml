@@ -19,7 +19,7 @@
     <pubDate>Wed, 14 Dec 2022 17:19:43 &#43;0800</pubDate>
     <author>xxxx</author>
     <guid>https://bsympgt.github.io/posts/linux%E5%AE%89%E8%A3%85git%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81_post/</guid>
-    <description><![CDATA[安装gitgit版本设置user.name和user.email设置密钥创建new ssh在linux查找密钥git成功添加密钥测试ssh是否]]></description>
+    <description><![CDATA[#安装git sudo yum install git git版本查看 git - - version 设置user.name和user.email并查看git - -list实验代码 git config &ndash;global user.name &ldquo;yjh&rdquo; git config &ndash;global user.email &ldquo;yangjunhao@qq.com&rdquo; 查]]></description>
 </item>
 <item>
     <title>配置hugo相关环境</title>
@@ -28,6 +28,22 @@
     <author>xxxx</author>
     <guid>https://bsympgt.github.io/posts/%E9%85%8D%E7%BD%AEhugo%E7%8E%AF%E5%A2%83_post/</guid>
     <description><![CDATA[下载主题新建一个文章文本测试是否连接成功在网页上运行将本地文件push到github里面在公网上运行bsympgt.github.io运行b]]></description>
+</item>
+<item>
+    <title>使用linux实现socket通信</title>
+    <link>https://bsympgt.github.io/posts/third_post/</link>
+    <pubDate>Wed, 14 Dec 2022 16:47:42 &#43;0800</pubDate>
+    <author>xxxx</author>
+    <guid>https://bsympgt.github.io/posts/third_post/</guid>
+    <description><![CDATA[Docker安装update更新install安装docker安装1docker安装2update更新docker设置将用户添加到docke]]></description>
+</item>
+<item>
+    <title>使用linux实现socket通信</title>
+    <link>https://bsympgt.github.io/posts/%E4%BD%BF%E7%94%A8linux%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1_post/</link>
+    <pubDate>Wed, 14 Dec 2022 16:47:42 &#43;0800</pubDate>
+    <author>xxxx</author>
+    <guid>https://bsympgt.github.io/posts/%E4%BD%BF%E7%94%A8linux%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1_post/</guid>
+    <description><![CDATA[Docker安装update更新install安装docker安装1docker安装2update更新docker设置将用户添加到docke]]></description>
 </item>
 </channel>
 </rss>
