@@ -9,7 +9,7 @@
     <pubDate>Wed, 14 Dec 2022 23:35:11 &#43;0800</pubDate>
     <author>xxxx</author>
     <guid>https://bsympgt.github.io/posts/%E5%9C%A8ubuntu%E4%B8%8B%E4%BD%BF%E7%94%A8docker%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1/</guid>
-    <description><![CDATA[Docker安装update更新install安装docker安装1docker安装2update更新docker设置将用户添加到docke]]></description>
+    <description><![CDATA[Docker安装代码 卸载旧版的docker sudo apt-get remove docker docker-engine docker.io containerd runc 更新系统里的所有的能更新的软件 sudo apt-get update 安装docker有关的工具 sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release up]]></description>
 </item>
 <item>
     <title>Linux安装git提交代码_post</title>
@@ -20,28 +20,28 @@
     <description><![CDATA[#安装git sudo yum install git git版本查看 git - - version 设置user.name和user.email并查看git - -list实验代码 git config &ndash;global user.name &ldquo;yjh&rdquo; git config &ndash;global user.email &ldquo;yangjunhao@qq.com&rdquo; 查]]></description>
 </item>
 <item>
-    <title>配置hugo相关环境</title>
-    <link>https://bsympgt.github.io/posts/%E9%85%8D%E7%BD%AEhugo%E7%8E%AF%E5%A2%83_post/</link>
+    <title>配置hugo相关环境以及在公网访问代码</title>
+    <link>https://bsympgt.github.io/posts/%E9%85%8D%E7%BD%AEhugo%E7%9B%B8%E5%85%B3%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8A%E5%9C%A8%E5%85%AC%E7%BD%91%E8%AE%BF%E9%97%AE%E4%BB%A3%E7%A0%81/</link>
     <pubDate>Wed, 14 Dec 2022 17:18:33 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://bsympgt.github.io/posts/%E9%85%8D%E7%BD%AEhugo%E7%8E%AF%E5%A2%83_post/</guid>
-    <description><![CDATA[下载主题新建一个文章文本测试是否连接成功在网页上运行将本地文件push到github里面在公网上运行bsympgt.github.io运行b]]></description>
+    <guid>https://bsympgt.github.io/posts/%E9%85%8D%E7%BD%AEhugo%E7%9B%B8%E5%85%B3%E7%8E%AF%E5%A2%83%E4%BB%A5%E5%8F%8A%E5%9C%A8%E5%85%AC%E7%BD%91%E8%AE%BF%E9%97%AE%E4%BB%A3%E7%A0%81/</guid>
+    <description><![CDATA[下载主题 git clone +地址 新建一个文章文本 hugo new site mysite cd mysite hugo new posts/first_post.md 测试是否连接成功 hugo serve - -buildDrafts 在网页上运行将本地文件push到github里面 echo &ldquo;# Linux&rdquo; &raquo; README.md git init git]]></description>
 </item>
 <item>
-    <title>使用linux实现socket通信</title>
-    <link>https://bsympgt.github.io/posts/third_post/</link>
+    <title>linux的学习笔记</title>
+    <link>https://bsympgt.github.io/posts/linux%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Wed, 14 Dec 2022 16:47:42 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://bsympgt.github.io/posts/third_post/</guid>
-    <description><![CDATA[Docker安装update更新install安装docker安装1docker安装2update更新docker设置将用户添加到docke]]></description>
+    <guid>https://bsympgt.github.io/posts/linux%E7%9A%84%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[调整文字的大小和样式]]></description>
 </item>
 <item>
-    <title>使用linux实现socket通信</title>
-    <link>https://bsympgt.github.io/posts/%E4%BD%BF%E7%94%A8linux%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1_post/</link>
+    <title>使用hugo生成静态网站以及marketdown语法的使用</title>
+    <link>https://bsympgt.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E4%BB%A5%E5%8F%8Amarketdown%E8%AF%AD%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/</link>
     <pubDate>Wed, 14 Dec 2022 16:47:42 &#43;0800</pubDate>
     <author>xxxx</author>
-    <guid>https://bsympgt.github.io/posts/%E4%BD%BF%E7%94%A8linux%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1_post/</guid>
-    <description><![CDATA[Docker安装update更新install安装docker安装1docker安装2update更新docker设置将用户添加到docke]]></description>
+    <guid>https://bsympgt.github.io/posts/%E4%BD%BF%E7%94%A8hugo%E7%94%9F%E6%88%90%E9%9D%99%E6%80%81%E7%BD%91%E7%AB%99%E4%BB%A5%E5%8F%8Amarketdown%E8%AF%AD%E6%B3%95%E7%9A%84%E4%BD%BF%E7%94%A8/</guid>
+    <description><![CDATA[新建一个文本在content/post里面编写文本内容返回到mysite目录下执行hugo serve hugo serve 在本地http://localhost:13]]></description>
 </item>
 </channel>
 </rss>

@@ -5,14 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <title>在ubuntu下使用docker实现socket通信 - 我的全新 Hugo 网站</title><meta name="Description" content="This is my cool site"><meta property="og:title" content="在ubuntu下使用docker实现socket通信" />
-<meta property="og:description" content="Docker安装update更新install安装docker安装1docker安装2update更新docker设置将用户添加到docke" />
+<meta property="og:description" content="Docker安装代码 卸载旧版的docker sudo apt-get remove docker docker-engine docker.io containerd runc 更新系统里的所有的能更新的软件 sudo apt-get update 安装docker有关的工具 sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release up" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://bsympgt.github.io/posts/%E5%9C%A8ubuntu%E4%B8%8B%E4%BD%BF%E7%94%A8docker%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1/" />
 <meta property="article:published_time" content="2022-12-14T23:35:11+08:00" />
 <meta property="article:modified_time" content="2022-12-14T23:35:11+08:00" /><meta property="og:site_name" content="My cool site" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="在ubuntu下使用docker实现socket通信"/>
-<meta name="twitter:description" content="Docker安装update更新install安装docker安装1docker安装2update更新docker设置将用户添加到docke"/>
+<meta name="twitter:description" content="Docker安装代码 卸载旧版的docker sudo apt-get remove docker docker-engine docker.io containerd runc 更新系统里的所有的能更新的软件 sudo apt-get update 安装docker有关的工具 sudo apt-get install apt-transport-https ca-certificates curl gnupg lsb-release up"/>
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -27,7 +27,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/bsympgt.github.io\/posts\/%E5%9C%A8ubuntu%E4%B8%8B%E4%BD%BF%E7%94%A8docker%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1\/"
-        },"genre": "posts","wordcount":  146 ,
+        },"genre": "posts","wordcount":  265 ,
         "url": "https:\/\/bsympgt.github.io\/posts\/%E5%9C%A8ubuntu%E4%B8%8B%E4%BD%BF%E7%94%A8docker%E5%AE%9E%E7%8E%B0socket%E9%80%9A%E4%BF%A1\/","datePublished": "2022-12-14T23:35:11+08:00","dateModified": "2022-12-14T23:35:11+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -69,7 +69,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">在ubuntu下使用docker实现socket通信</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>xxxx</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-12-14">2022-12-14</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;146 words&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-12-14">2022-12-14</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;265 words&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;One minute&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -78,15 +78,50 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
             </div><div class="content" id="content"><p><!-- raw HTML omitted -->Docker安装<!-- raw HTML omitted --></p>
+<p>代码</p>
+<p>卸载旧版的docker</p>
+<blockquote>
+<p>sudo apt-get remove docker docker-engine docker.io containerd runc</p>
+</blockquote>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
-        data-src="/tupian12.jpg"
-        data-srcset="/tupian12.jpg, /tupian12.jpg 1.5x, /tupian12.jpg 2x"
+        data-src="/tupian32.jpg"
+        data-srcset="/tupian32.jpg, /tupian32.jpg 1.5x, /tupian32.jpg 2x"
         data-sizes="auto"
-        alt="/tupian12.jpg"
-        title="/tupian12.jpg" /></p>
+        alt="/tupian32.jpg"
+        title="/tupian32.jpg" /></p>
+<p>更新系统里的所有的能更新的软件</p>
+<blockquote>
+<p>sudo apt-get update</p>
+</blockquote>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/tupian33.jpg"
+        data-srcset="/tupian33.jpg, /tupian33.jpg 1.5x, /tupian33.jpg 2x"
+        data-sizes="auto"
+        alt="/tupian33.jpg"
+        title="/tupian33.jpg" /></p>
+<p>安装docker有关的工具</p>
+<p>sudo apt-get install<br>
+apt-transport-https<br>
+ca-certificates<br>
+curl<br>
+gnupg<br>
+lsb-release</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="/tupian34.jpg"
+        data-srcset="/tupian34.jpg, /tupian34.jpg 1.5x, /tupian34.jpg 2x"
+        data-sizes="auto"
+        alt="/tupian34.jpg"
+        title="/tupian34.jpg" /></p>
 <p><!-- raw HTML omitted -->update更新<!-- raw HTML omitted --></p>
+<blockquote>
+<p>sudo apt-get update</p>
+</blockquote>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -104,7 +139,10 @@
         data-sizes="auto"
         alt="/tupian14.jpg"
         title="/tupian14.jpg" /></p>
-<p><!-- raw HTML omitted -->docker安装1<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->增加一个docker的官方GPG key：<!-- raw HTML omitted --></p>
+<blockquote>
+<p>curl -fsSL <a href="https://download.docker.com/linux/ubuntu/gpg">https://download.docker.com/linux/ubuntu/gpg</a> | sudo gpg &ndash;dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg</p>
+</blockquote>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -113,7 +151,10 @@
         data-sizes="auto"
         alt="/tupian15.jpg"
         title="/tupian15.jpg" /></p>
-<p><!-- raw HTML omitted -->docker安装2<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->下载仓库文件<!-- raw HTML omitted --></p>
+<p>echo<br>
+&ldquo;deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] <a href="https://download.docker.com/linux/ubuntu">https://download.docker.com/linux/ubuntu</a><br>
+$(lsb_release -cs) stable&rdquo; | sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null</p>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -123,6 +164,9 @@
         alt="/tupian16.jpg"
         title="/tupian16.jpg" /></p>
 <p><!-- raw HTML omitted -->update更新<!-- raw HTML omitted --></p>
+<blockquote>
+<p>sudo apt-get update</p>
+</blockquote>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -131,7 +175,10 @@
         data-sizes="auto"
         alt="/tupian17.jpg"
         title="/tupian17.jpg" /></p>
-<p><!-- raw HTML omitted -->docker设置<!-- raw HTML omitted --></p>
+<p><!-- raw HTML omitted -->安装最新的docker<!-- raw HTML omitted --></p>
+<blockquote>
+<p>sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin</p>
+</blockquote>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -141,6 +188,9 @@
         alt="/tupian18.jpg"
         title="/tupian18.jpg" /></p>
 <p><!-- raw HTML omitted -->将用户添加到docker中<!-- raw HTML omitted --></p>
+<blockquote>
+<p>sudo gpasswd -a $USER docker</p>
+</blockquote>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -168,6 +218,9 @@
         alt="/tupian23.jpg"
         title="/tupian23.jpg" /></p>
 <p><!-- raw HTML omitted -->运行Socketervice.java<!-- raw HTML omitted --></p>
+<blockquote>
+<p>javac SocketService.java</p>
+</blockquote>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -177,6 +230,9 @@
         alt="/tupian20.jpg"
         title="/tupian20.jpg" /></p>
 <p><!-- raw HTML omitted -->运行SockeClient.java<!-- raw HTML omitted --></p>
+<blockquote>
+<p>javac SocketClient.java</p>
+</blockquote>
 <p><img
         class="lazyload"
         src="/svg/loading.min.svg"
